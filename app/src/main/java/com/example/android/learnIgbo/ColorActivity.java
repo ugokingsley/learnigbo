@@ -15,16 +15,16 @@ public class ColorActivity extends AppCompatActivity {
 
         //create an array of words
         ArrayList<Word> words = new ArrayList<Word>();
-        words.add(new Word("red","lutti"));
-        words.add(new Word("mustard yellow","abuo"));
-        words.add(new Word("dusty yellow","ato"));
-        words.add(new Word("green","ano"));
-        words.add(new Word("brown","ise"));
-        words.add(new Word("grey","isii"));
-        words.add(new Word("blue","asaa"));
-        words.add(new Word("black","asato"));
-        words.add(new Word("white","itolu"));
-        words.add(new Word("purple","iri"));
+        words.add(new Word("red","lutti",R.drawable.color_red));
+        words.add(new Word("mustard yellow","abuo",R.drawable.color_mustard_yellow));
+        words.add(new Word("dusty yellow","ato",R.drawable.color_dusty_yellow));
+        words.add(new Word("green","ano",R.drawable.color_green));
+        words.add(new Word("brown","ise",R.drawable.color_brown));
+        words.add(new Word("grey","isii",R.drawable.color_gray));
+        words.add(new Word("blue","asaa",R.drawable.color_brown));
+        words.add(new Word("black","asato",R.drawable.color_black));
+        words.add(new Word("white","itolu",R.drawable.color_white));
+        words.add(new Word("purple","iri",R.drawable.color_green));
         /*
         *  use this to display a list view - non scrollable interface
         *

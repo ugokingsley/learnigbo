@@ -15,16 +15,16 @@ public class NumbersActivity extends AppCompatActivity {
 
         //create an array of words
         ArrayList<Word> words = new ArrayList<Word>();
-        words.add(new Word("one","lutti"));
-        words.add(new Word("two","abuo"));
-        words.add(new Word("three","ato"));
-        words.add(new Word("four","ano"));
-        words.add(new Word("five","ise"));
-        words.add(new Word("six","isii"));
-        words.add(new Word("seven","asaa"));
-        words.add(new Word("eight","asato"));
-        words.add(new Word("nine","itolu"));
-        words.add(new Word("ten","iri"));
+        words.add(new Word("one","lutti",R.drawable.number_one));
+        words.add(new Word("two","abuo",R.drawable.number_two));
+        words.add(new Word("three","ato",R.drawable.number_three));
+        words.add(new Word("four","ano",R.drawable.number_four));
+        words.add(new Word("five","ise",R.drawable.number_five));
+        words.add(new Word("six","isii",R.drawable.number_six));
+        words.add(new Word("seven","asaa",R.drawable.number_seven));
+        words.add(new Word("eight","asato",R.drawable.number_eight));
+        words.add(new Word("nine","itolu",R.drawable.number_nine));
+        words.add(new Word("ten","iri",R.drawable.number_ten));
         /*
         *  use this to display a list view - non scrollable interface
         *

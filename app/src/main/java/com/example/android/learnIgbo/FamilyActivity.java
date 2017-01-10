@@ -14,21 +14,21 @@ public class FamilyActivity extends AppCompatActivity {
 
             //create an array of words
             ArrayList<Word> words = new ArrayList<Word>();
-            words.add(new Word("father","lutti"));
-            words.add(new Word("mother yellow","abuo"));
-            words.add(new Word("brother","ato"));
-            words.add(new Word("sister","ano"));
-            words.add(new Word("elder brother","ise"));
-            words.add(new Word("elder sister","isii"));
-            words.add(new Word("grand mother","asaa"));
-            words.add(new Word("grand father","asato"));
-            words.add(new Word("cousin","itolu"));
-            words.add(new Word("mother-in-law","iri"));
-            words.add(new Word("father-in-law","iri"));
-            words.add(new Word("brother-in-law","iri"));
-            words.add(new Word("sister-in-law","iri"));
-            words.add(new Word("uncle","iri"));
-            words.add(new Word("aunt","iri"));
+            words.add(new Word("father","lutti",R.drawable.family_father));
+            words.add(new Word("mother yellow","abuo",R.drawable.family_mother));
+            words.add(new Word("brother","ato",R.drawable.family_younger_brother));
+            words.add(new Word("sister","ano",R.drawable.family_younger_sister));
+            words.add(new Word("elder brother","ise",R.drawable.family_older_brother));
+            words.add(new Word("elder sister","isii",R.drawable.family_older_sister));
+            words.add(new Word("grand mother","asaa",R.drawable.family_grandmother));
+            words.add(new Word("grand father","asato",R.drawable.family_grandfather));
+            words.add(new Word("cousin","itolu",R.drawable.family_son));
+            words.add(new Word("mother-in-law","iri",R.drawable.family_grandmother));
+            words.add(new Word("father-in-law","iri",R.drawable.family_grandfather));
+            words.add(new Word("brother-in-law","iri",R.drawable.family_older_brother));
+            words.add(new Word("sister-in-law","iri",R.drawable.family_older_sister));
+            words.add(new Word("uncle","iri",R.drawable.family_father));
+            words.add(new Word("aunt","iri",R.drawable.family_mother));
         /*
         *  use this to display a list view - non scrollable interface
         *
